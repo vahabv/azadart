@@ -1,16 +1,20 @@
 
 body{
 	background: #f2f5f7;
-}
+} /*header*/
 .header{
 	height: 105px;
 	background: #1d6399;
+	position: fixed;
+    width: 100%;
+    z-index: 2;
 
 }
 .menu{
 	color:#d7e9f7;
 	margin-top: 30px;
 	margin-left: 20px;
+	line-height: 50px;
 }
 .menu span{
 	margin-left: 10px;
@@ -35,8 +39,8 @@ body{
 }
 .proficon span{
 	margin-left: 10px
-}
-.sbmenu{
+} /*header end*/
+.sbmenu{ /*submenu*/
 	height: 100px;
 	background: #1d6399;
 	border-top: 0.2px solid black;
@@ -51,12 +55,13 @@ body{
 	font-size: 15px;
     font-weight: 600
 }
-
-.background{
-	height: 300px;
+ /*submenu end*/
+.background{ /*background*/
+	padding-top: 105px;
+	height: 450px;
 	background-image: url(http://azadart.com/site/wp-content/themes/azadart/img/bg-header.jpg);
 }
-.main{
+.main{ /*main*/
 	height: 280px;
 	margin-top: 80px;
 
@@ -75,11 +80,17 @@ body{
 	border-radius: 5px;
 	color: white;
 	border:none;
+
 }
-.worker{
+.btnmain:hover{
+	transition: all 1s;
+	opacity: 0.8;
+} 
+.worker{ 
 	width: 530px;
 	height: 170px;
 	background: white;
+	margin-left: 20px;
 }
 .worker img {
 	margin-top: 20px;
@@ -103,37 +114,36 @@ body{
 	margin-top:40px;
 	box-shadow: 0 2px 0 #003055;
 	border:none;
-}
-.bottom-profile{
-	width: 250px;
-	height: 50px;
-	margin-top: 100px;
-	border: solid 1px black;
-}
-.star{
-	width: 90px;
-	height: 50px;
-	border-right: solid 1px black;
-}
-.star i{
-	margin-top: 20px;
-	
-}
-.money{
-	margin-top: -50px;
-	float: right;
-	margin-right: 80px;
-	width: 50px;
-	height: 50px;
-}
-.money h6{
-	margin-top: 15px;
-	margin-left: -10px;
-}
-.years{
-border-left: solid 1px black;
 
 }
+.worker button:hover{
+	opacity: .9;
+	transition: all 1s;
+}
+.bottom-profile{
+	height: 35px;
+	width: 255px;
+	margin-left: 1px;
+	margin-top: 120px;
+	border: solid 1px #f4f6f8;
+	text-align: center;
+}
+
+.star{
+	padding: 0;
+	width: 100px;
+	height: 35px;
+	border-right: solid 1px #f4f6f8;
+}
+
+.star i{
+	margin-top: 10px;
+}
+
+.years{
+height: 35px;
+border-left: solid 1px #f4f6f8;
+} /*main end*/
 .footer{
 	background: #2c3e50;
 	height: 100px;
@@ -147,6 +157,63 @@ border-left: solid 1px black;
 	float: right;
 	margin-top: 50px;
 }
+
+/*signup start*/
+	
+		.signup{
+			height: 800px;
+			width: 500px;
+			background: #fff;
+			margin: 50px auto;
+			border-radius: 1px;
+		    box-shadow: 0 1px 1px;
+		    border:none;
+		}
+		.signup h4{
+			font-family: helvetica;
+			color: #2c3e50;
+    		font-size: 36px;
+    		font-weight: 600;
+    		padding-top: 25px;
+    		padding-left: 48px;
+		}
+		.signup form{
+			height: 800px;
+			width: 400px;
+			margin: 0 auto
+		}
+		.signup label{
+			color: #737c85;
+    		font-size: 14px;
+    		margin-bottom: 15px;
+    		font-weight: 600;
+
+		}
+		.signup input{
+			border-radius: 5px;
+			height: 40px;
+			width: 330px;
+			border: 1px solid #d7d9da;
+
+		}
+		.signup span{
+			color: #666f78;
+		}
+  .signbtn{
+  	width:265px;
+  	height: 45px;
+  	background-color: #004d88;
+    box-shadow: 0 2px 0 #003055;
+  	color: #fff;
+    border: none;
+
+  }
+  .signbtn:hover{
+  	color: #fff;
+  	transition: ease 1s;
+  	opacity: .9;
+  }
+ /* signup end*/
 
 
 
