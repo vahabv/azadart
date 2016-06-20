@@ -1,0 +1,153 @@
+
+body{
+	background: #f2f5f7;
+}
+.header{
+	height: 105px;
+	background: #1d6399;
+
+}
+.menu{
+	color:#d7e9f7;
+	margin-top: 30px;
+	margin-left: 20px;
+}
+.menu span{
+	margin-left: 10px;
+	letter-spacing: 1.3px
+}
+.fa-search{
+	margin-left: 35px;
+}
+.logo{
+	margin-top: 25px;
+	text-align: center;
+}
+.proficon{
+	float: right;
+	margin-top: 30px;
+	letter-spacing: 1.5px;
+}
+.proficon img{
+	border-radius: 50%;
+	height: 40px;
+	width: 40px;
+}
+.proficon span{
+	margin-left: 10px
+}
+.sbmenu{
+	height: 100px;
+	background: #1d6399;
+	border-top: 0.2px solid black;
+	margin: 0 45px;
+	color: white;
+
+}
+.sbinput{
+	margin-left: 25px;
+}
+.sbinput h2{
+	font-size: 15px;
+    font-weight: 600
+}
+
+.background{
+	height: 300px;
+	background-image: url(http://azadart.com/site/wp-content/themes/azadart/img/bg-header.jpg);
+}
+.main{
+	height: 280px;
+	margin-top: 80px;
+
+}
+.main span{
+	color: #2c3e50;
+    font-size: 24px;
+    text-transform: capitalize;
+}
+.btnmain {
+	float: right;
+	margin-top: 20px;
+	width: 180px;
+	height: 40px;
+	background: #3783c4;
+	border-radius: 5px;
+	color: white;
+	border:none;
+}
+.worker{
+	width: 530px;
+	height: 170px;
+	background: white;
+}
+.worker img {
+	margin-top: 20px;
+	width: 70px;
+	height: 70px;
+	border-radius: 50%;
+	position: absolute;
+}
+.workprof{
+	margin-left: 90px;
+	margin-top: 30px;
+	position: absolute;
+}
+.worker button {
+	width: 130px;
+	height: 35px;
+	border-radius: 5px;
+	background: #004d88;
+	color: white;
+	float: right;
+	margin-top:40px;
+	box-shadow: 0 2px 0 #003055;
+	border:none;
+}
+.bottom-profile{
+	width: 250px;
+	height: 50px;
+	margin-top: 100px;
+	border: solid 1px black;
+}
+.star{
+	width: 90px;
+	height: 50px;
+	border-right: solid 1px black;
+}
+.star i{
+	margin-top: 20px;
+	
+}
+.money{
+	margin-top: -50px;
+	float: right;
+	margin-right: 80px;
+	width: 50px;
+	height: 50px;
+}
+.money h6{
+	margin-top: 15px;
+	margin-left: -10px;
+}
+.years{
+border-left: solid 1px black;
+
+}
+.footer{
+	background: #2c3e50;
+	height: 100px;
+}
+.footer img{
+	margin-top: 20px;
+	margin-left: 30px;
+}
+.Designeid {
+	color: #a3acb5;
+	float: right;
+	margin-top: 50px;
+}
+
+
+
+ /*f4f6f8*/
