@@ -52,6 +52,20 @@ margin-left: 25px;
 font-size: 15px;
 font-weight: 600
 }
+.range{
+	background: transparent;
+    -webkit-appearance: none;
+    height: 0;
+
+}
+.rang{
+	margin-top: 24px;
+	height: 10px;
+	border-radius: 20px;
+	width: 175px;
+	background-color: black;
+   
+}
 /*submenu end*/
 .background{ /*background*/
 padding-top: 105px;
@@ -185,6 +199,10 @@ height: 40px;
 width: 330px;
 border: 1px solid #d7d9da;
 }
+.signup input:focus{
+	padding-left: 15px;
+	transition: all 1s;
+}
 .signup span{
 color: #666f78;
 }
@@ -238,6 +256,10 @@ width: 330px;
 border: 1px solid #d7d9da;
 
 }
+.login input:focus{
+	padding-left: 25px;
+	transition: all 1s;	
+}
 .login label{
 color: #737c85;
 font-size: 14px;
@@ -260,6 +282,6 @@ letter-spacing: 1.5px;
 }
 .login button:hover{
 	opacity: .9;
-
-
 }
+/*login end*/
+/*menu start*/
