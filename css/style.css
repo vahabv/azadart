@@ -222,7 +222,7 @@ opacity: .9;
 /* signup end*/
 /*login start*/
 body{
-background-color: red;
+background-color: grey;
 }
 .login{
 width: 500px;
@@ -285,3 +285,22 @@ letter-spacing: 1.5px;
 }
 /*login end*/
 /*menu start*/
+
+
+/*menu kodunu at end*/
+
+
+.autworker{
+	background-color: white;
+	height: 60px;
+}
+
+
+
+
+
+
+
+
+
+
