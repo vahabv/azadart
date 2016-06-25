@@ -1,5 +1,11 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+body{
+  background-color: #f2f5f7;
+}
+>>>>>>> f8ee693d2bc8a93ca568da8c667588990fda64f6
 /*header*/
 
 .header{
@@ -38,26 +44,18 @@
   margin-left: 50px;
 }
 
-.sigin{
-  margin-top: 30px;
-  margin-left: 20px;
-  display: inline-block;
-  border-radius: 4px;
-  border: 1px solid #004d88;
-  background: transparent;
-    float: right;
+.sigin {
+    border-radius: 4px;
+    border: 1px solid #004d88;
+    background: transparent;
     height: 37px;
-  width: 96px;
+    width: 96px;
 }
 .login{
-  margin-top: 38px;
-  font-size: 20px;
-  margin-left: 20px;
-  background: transparent;
-  font-size: 15px;
-  color: #004d88;
-  float: right;
-  border: none;
+    background: transparent;
+    font-size: 15px;
+    color: #004d88;
+    border: none;
 }
 /*menu end*/
 /*left rigth*/
@@ -107,50 +105,143 @@ letter-spacing: 1.5px;
 
 }
 
+/*left tigth end*/
+/*looking start*/
+.looking{
+ 
+    background-color: white;
+    height: 159px;
+}
 
-/*left rigth end*/
-/*project start*/
-
-.project{
-  height: 400px;
+.btnnone {
+    width: 124px;
+    height: 52px;
+    background-color: white;
+    border: none;
+    margin-top: 50px;
+}
+.btnnone:hover {
+    
+    background-color: #f2f5f7;
+   
+}
+.projectstitle{
+  margin-top: 20px;
+}
+.projectdetal{
+  height: 40px;
+ margin-top: 10px;
   background-color: white;
 }
-
-#btn1{
-  color:  white;
-  background-color: #95a5a6;
-  height: 50px;
-}
-#btn1:hover{
-  color:#00B0FF;
-  background-color: #eee;
-  border-top: 2px solid #00B0FF;
-  height: 60px;
-}
-#btn2{
-  margin-left: 10px;
-  color:  white;
-  background-color: #7f8c8d;
-  height: 50px;
-}
-#btn2:hover{
-  color:#00B0FF;
-  background-color: #eee;
-  border-top: 2px solid #00B0FF;
-  height: 60px;
-}
-.mainproject img{
+.projectdetal img{
   border-radius: 100%;
 }
-
-
-
-.amq{
-  background-color: grey;
+.freelancers{
+ 
+    background-color: white;
+    height: 159px;
+    margin-top: 20px;
 }
-.aplybtn{
-  margin-left: 10px;
+.worker{
+ margin-left: 20px;
+    margin-top: 40px; 
+  width: 530px;
+  height: 170px;
+  background: white;
 }
+.worker img {
+  margin-top: 20px;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  position: absolute;
+}
+.workprof{
+  margin-left: 90px;
+  margin-top: 30px;
+  position: absolute;
+}
+.worker button {
+  width: 130px;
+  height: 35px;
+  border-radius: 5px;
+  background: #004d88;
+  color: white;
+  float: right;
+  margin-top:40px;
+  box-shadow: 0 2px 0 #003055;
+  border:none;
+}
+.worker button:hover{
+  opacity: .9;
+  transition: all 1s;
+}
+.bottom-profile{
+  height: 35px;
+  width: 255px;
+  margin-left: 1px;
+  margin-top: 120px;
+  border: solid 1px #f4f6f8;
+  text-align: center;
+}
+
+.star{
+  padding: 0;
+  width: 100px;
+  height: 35px;
+  border-right: solid 1px #f4f6f8;
+}
+
+.star i{
+  margin-top: 10px;
+}
+
+.years{
+height: 35px;
+border-left: solid 1px #f4f6f8;
+} /*main end*/
+  .marketplace{
+    margin-top: 30px;
+      background: white;
+      height: 500px;
+    }
+    .title h3{
+    color: #004d88;
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  }
+  .block{
+    width: 60px;
+    height: 50px;
+    border-top: solid 1px gray;
+    border-bottom: solid 1px gray;
+  }
+  .block2{
+    margin-top: -5px;
+    margin-left: 5px;
+    width: 50px;
+    height: 60px;
+    border-right: solid 1px gray;
+    border-left: solid 1px gray;
+  } 
+  /*end of*/
+  .speedworld{
+    height: 200px;
+    
+  }
+  .paragrafs{
+    margin-top: 20px;
+    background-color: white;
+    height: 120px;
+    margin-left: 10px;
+  }
+  .footer{
+  background: #2c3e50;
+  height: 100px;
+}
+<<<<<<< HEAD
 /*project end*/
 =======
 .content{
@@ -460,3 +551,14 @@ letter-spacing: 1.5px;
 
 
 >>>>>>> e73ef5d4d59541a4410716236f1188fe70df910c
+=======
+.footer img{
+  margin-top: 20px;
+  margin-left: 30px;
+}
+.Designeid {
+  color: #a3acb5;
+  float: right;
+  margin-top: 50px;
+}
+>>>>>>> f8ee693d2bc8a93ca568da8c667588990fda64f6
