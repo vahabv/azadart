@@ -3,65 +3,14 @@
 <head>
 	<title></title>
 </head>
-<style type="text/css">
-.chatbox{
-	width: 270px;
-	height: 430px;
-	 overflow-y: scroll;
-	 overflow-x: hidden;
-}
-.chatheader{
-	border-top-left-radius: 5px;
-	border-top-right-radius: 5px;
-	width: 270px;
-	height: 40px;
-	background-color: #014d88;	
-}
-.chatheader i{
-	margin-left: 10px;
-	width: 70px;
-    height: 14px;
-    float: left;
-    margin-top: 12px;
-	background-image: url(http://azadart.com/site/wp-content/plugins/screets-chat/skins/basic/img/icons.png);
-	background-repeat: no-repeat;
-}
-.chatbox p{
-	padding-left: 10px;
-	line-height: 1.4;
-}
-.chatbox input,label,textarea{
-	margin-top: 5px;
-	display: block;
-	margin-left: 10px;
-	
-}
-.chatbox input {
-	padding: 7px 45px;	
-}
-.chatbtn{
-	margin-top: 20px;
-	margin-left: 95px;
-	background-color: #3a99d1;
-	border:none;
-	border-radius: 5px;
-	font-weight: bold;
-	color: white;
-	padding: 7px 11px;
-	display: block;
-
-}
-.chatbox form{
-	width: 270px;
-	height: 430px;
-}
-
-</style>
+<link rel="stylesheet" type="text/css" href="css/style.css">
 <body>
-<div class="chatbox">
-	<div class="chatheader">
+<div style="width:270px;height:300px;">
+<div class="chatheader">
 	<i></i>
 	</div>
+<div class="chatbox">
+	
 	<p>Hal-hazırda heç bir operatorumuz şəbəkə daxilində deyil.Əgər istəsəniz bizə öz mesajınızı yaza bilərsiniz.</p>
 	<form>
 		<label for="chatad">Adınız *:</label>
@@ -73,5 +22,14 @@
 		<button class="chatbtn">Göndər</button>
 	</form>
 </div>
+</div>
 </body>
 </html>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $(".chatheader").click(function(){
+        $(".chatbox").toggle('1000');
+    });
+});
+</script>

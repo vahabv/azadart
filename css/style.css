@@ -41,7 +41,7 @@ margin-left: 10px
 .sbmenu{ /*submenu*/
 height: 100px;
 background: #1d6399;
-border-top: 0.2px solid black;
+border-top: 0.2px solid #15476e;
 margin: 0 45px;
 color: white;
 }
@@ -52,19 +52,23 @@ margin-left: 25px;
 font-size: 15px;
 font-weight: 600
 }
+.sbinput select{
+	color: #555;
+	width: 100%;
+	padding: 3px 0;
+}
 .range{
-	background: transparent;
-    -webkit-appearance: none;
-    height: 0;
-
+background: transparent;
+-webkit-appearance: none;
+height: 0;
 }
 .rang{
-	margin-top: 24px;
-	height: 10px;
-	border-radius: 20px;
-	width: 175px;
-	background-color: black;
-   
+margin-top: 24px;
+height: 10px;
+border-radius: 20px;
+width: 175px;
+background-color: black;
+
 }
 /*submenu end*/
 .background{ /*background*/
@@ -151,20 +155,20 @@ border-left: solid 1px #f4f6f8;
 } /*main end*/
 .footer{ /*footer*/
 background: #2c3e50;
-height: 100px;
+height: 115px;
+}
+.footermain{
+	line-height: 8;
 }
 .footer img{
-margin-top: 20px;
 margin-left: 30px;
 }
 .Designeid {
 color: #a3acb5;
 float: right;
-margin-top: 50px;
 }
 /*footer end*/
 /*signup start*/
-
 .signup{
 height: 800px;
 width: 500px;
@@ -200,8 +204,8 @@ width: 330px;
 border: 1px solid #d7d9da;
 }
 .signup input:focus{
-	padding-left: 15px;
-	transition: all 1s;
+padding-left: 15px;
+transition: all 1s;
 }
 .signup span{
 color: #666f78;
@@ -222,7 +226,7 @@ opacity: .9;
 /* signup end*/
 /*login start*/
 body{
-background-color: grey;
+background-color: #ccc;
 }
 .login{
 width: 500px;
@@ -232,8 +236,6 @@ border-radius: 1px;
 background-color: #fff;
 box-shadow: 0 1px 1px rgba(119,119,119,0.2);
 border: none;
-
-
 }
 .login h4{
 font-family: helvetica;
@@ -247,18 +249,16 @@ padding-left: 48px;
 width: 360px;
 height: 300px;
 margin-left: 50px;
-
 }
 .login input{
 border-radius: 5px;
 height: 40px;
 width: 330px;
 border: 1px solid #d7d9da;
-
 }
 .login input:focus{
-	padding-left: 25px;
-	transition: all 1s;	
+padding-left: 25px;
+transition: all 1s;
 }
 .login label{
 color: #737c85;
@@ -273,34 +273,145 @@ border:none;
 border-radius: 5px;
 color: white;
 letter-spacing: 1.5px;
-
 }
 .login a{
-	background-color: transparent;
-	text-decoration: none;
-	color: #4d5a63;
+background-color: transparent;
+text-decoration: none;
+color: #4d5a63;
 }
 .login button:hover{
-	opacity: .9;
+opacity: .9;
 }
 /*login end*/
 /*menu start*/
-
-
-/*menu kodunu at end*/
-
-
-.autworker{
-	background-color: white;
-	height: 60px;
+.primarymenu{
+margin: 130px auto;
+background-color: rgba(242,245,247,0.9);
+opacity: 1;
+font-weight: 100px;
+font-size: 48px;
+text-align: center;
+display: none;
+transition: transform 0.4s,opacity 0.4s;
+overflow: auto;
+z-index: 9999;
+height: 100%;
+width: 100%;
 }
+.primarymenu i{
+	float: left;
+}
+.primarymenu ul,li{
+padding-top: 20px;
+list-style-type:  none;
+}
+.primarymenu a{
+font-family: helvetica;
+color: #004d88;
+text-decoration: none;
+}
+.primarymenu a:hover{
+border-bottom:solid 1px #ccc;
+}
+/*menu end*/
+/*profileopen start*/
+.profopen{
+border: 1px solid #2c3e50;
+width: 213px;
+height: 190px;
+background-color: white;
+}
+.profopnavatar{
+height: 65px;
+}
+.profopen img{
+margin-bottom: 0px;
+border-radius: 100%;
+width: 35px;
+height: 35px;
+margin: 10px;
+}
+.profopen a{
+color: black;
+text-decoration: none;
+font-size: 14px;
+line-height: 35px;
+letter-spacing: 1.3px;
+font-weight: 400;
+}
+.profopen li{
+padding-left: 30px;
+height: 35px;
+border-top: 1px solid #eee;
+list-style: none;
+}
+.profopen ul{
+width: 100%;
+padding: 0;
+}
+.profopen span{
+color: #1d6399;
+}
+.autworker{
+background-color: white;
+height: 60px;
+}
+/*profile open end*/
+/*contact*/
+.chatbox{
+	width: 270px;
+	height: 430px;
+	 overflow-y: scroll;
+	 overflow-x: hidden;
+	 display: none;
+}
+.chatheader{
+	    float: right;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	width: 270px;
+	height: 40px;
+	background-color: #014d88;	
+}
+.chatheader i{
+	margin-left: 10px;
+	width: 70px;
+    height: 14px;
+    float: left;
+    margin-top: 12px;
+	background-image: url(http://azadart.com/site/wp-content/plugins/screets-chat/skins/basic/img/icons.png);
+	background-repeat: no-repeat;
+}
+.chatbox p{
+	padding-left: 10px;
+	line-height: 1.4;
+}
+.chatbox input,label,textarea{
+	margin-top: 5px;
+	display: block;
+	margin-left: 10px;
+	
+}
+.chatbox input {
+	padding: 7px 45px;	
+}
+.chatbtn{
+	margin-top: 20px;
+	margin-left: 95px;
+	background-color: #3a99d1;
+	border:none;
+	border-radius: 5px;
+	font-weight: bold;
+	color: white;
+	padding: 7px 11px;
+	display: block;
 
-
-
-
-
-
-
-
-
-
+}
+.chatbox form{
+	width: 270px;
+	height: 430px;
+}
+.chatmain{
+	
+}
+/*contact end*/
