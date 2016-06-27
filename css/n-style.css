@@ -1,0 +1,508 @@
+.content{
+background: #f2f5f7;
+} /*header*/
+.header{
+height: 105px;
+background: #1d6399;
+position: fixed;
+width: 100%;
+z-index: 2;
+}
+.menu{
+color:#d7e9f7;
+margin-top: 30px;
+margin-left: 20px;
+line-height: 50px;
+}
+.menu span{
+margin-left: 10px;
+letter-spacing: 1.3px
+}
+.fa-search{
+margin-left: 35px;
+}
+.logo{
+margin-top: 25px;
+text-align: center;
+}
+.proficon{
+float: right;
+margin-top: 30px;
+letter-spacing: 1.5px;
+}
+.proficon img{
+border-radius: 50%;
+height: 40px;
+width: 40px;
+}
+.proficon span{
+margin-left: 10px
+} /*header end*/
+.sbmenu{ /*submenu*/
+height: 100px;
+background: #1d6399;
+border-top: 0.2px solid #15476e;
+margin: 0 45px;
+color: white;
+}
+.sbinput{
+margin-left: 25px;
+}
+.sbinput h2{
+font-size: 15px;
+font-weight: 600
+}
+.sbinput select{
+	color: #555;
+	width: 100%;
+	padding: 3px 0;
+}
+.range{
+background: transparent;
+-webkit-appearance: none;
+height: 0;
+}
+.rang{
+margin-top: 24px;
+height: 10px;
+border-radius: 20px;
+width: 175px;
+background-color: black;
+
+}
+/*submenu end*/
+.background{ /*background*/
+padding-top: 105px;
+height: 450px;
+background-image: url(http://azadart.com/site/wp-content/themes/azadart/img/bg-header.jpg);
+}
+.main{ /*main*/
+height: 280px;
+margin-top: 80px;
+}
+.main span{
+color: #2c3e50;
+font-size: 24px;
+text-transform: capitalize;
+}
+.btnmain {
+float: right;
+margin-top: 20px;
+width: 180px;
+height: 40px;
+background: #3783c4;
+border-radius: 5px;
+color: white;
+border:none;
+}
+.btnmain:hover{
+transition: all 1s;
+opacity: 0.8;
+}
+.worker{
+width: 530px;
+height: 170px;
+background: white;
+margin-left: 20px;
+}
+.worker img {
+margin-top: 20px;
+width: 70px;
+height: 70px;
+border-radius: 50%;
+position: absolute;
+}
+.workprof{
+margin-left: 90px;
+margin-top: 30px;
+position: absolute;
+}
+.worker button {
+width: 130px;
+height: 35px;
+border-radius: 5px;
+background: #004d88;
+color: white;
+float: right;
+margin-top:40px;
+box-shadow: 0 2px 0 #003055;
+border:none;
+}
+.worker button:hover{
+opacity: .9;
+transition: all 1s;
+}
+.bottom-profile{
+height: 35px;
+width: 255px;
+margin-left: 1px;
+margin-top: 120px;
+border: solid 1px #f4f6f8;
+text-align: center;
+}
+.star{
+padding: 0;
+width: 100px;
+height: 35px;
+border-right: solid 1px #f4f6f8;
+}
+.star i{
+margin-top: 10px;
+}
+.years{
+height: 35px;
+border-left: solid 1px #f4f6f8;
+} /*main end*/
+.footer{ /*footer*/
+background: #2c3e50;
+height: 115px;
+}
+.footermain{
+	line-height: 8;
+}
+.footer img{
+margin-left: 30px;
+}
+.Designeid {
+color: #a3acb5;
+float: right;
+}
+/*footer end*/
+/*signup start*/
+.signup{
+height: 800px;
+width: 500px;
+background: #fff;
+margin: 50px auto;
+border-radius: 1px;
+box-shadow: 0 1px 1px;
+border:none;
+}
+.signup h4{
+font-family: helvetica;
+color: #2c3e50;
+font-size: 36px;
+font-weight: 600;
+padding-top: 25px;
+padding-left: 48px;
+}
+.signup form{
+height: 800px;
+width: 400px;
+margin: 0 auto
+}
+.signup label{
+color: #737c85;
+font-size: 14px;
+margin-bottom: 15px;
+font-weight: 600;
+}
+.signup input{
+border-radius: 5px;
+height: 40px;
+width: 330px;
+border: 1px solid #d7d9da;
+}
+.signup input:focus{
+padding-left: 15px;
+transition: all 1s;
+}
+.signup span{
+color: #666f78;
+}
+.signbtn{
+width:265px;
+height: 45px;
+background-color: #004d88;
+box-shadow: 0 2px 0 #003055;
+color: #fff;
+border: none;
+}
+.signbtn:hover{
+color: #fff;
+transition: ease 1s;
+opacity: .9;
+}
+/* signup end*/
+/*login start*/
+body{
+background-color: #ccc;
+}
+.login{
+width: 500px;
+height: 400px;
+margin: 0 auto;
+border-radius: 1px;
+background-color: #fff;
+box-shadow: 0 1px 1px rgba(119,119,119,0.2);
+border: none;
+}
+.login h4{
+font-family: helvetica;
+color: #2c3e50;
+font-size: 36px;
+font-weight: 600;
+padding-top: 25px;
+padding-left: 48px;
+}
+.login form{
+width: 360px;
+height: 300px;
+margin-left: 50px;
+}
+.login input{
+border-radius: 5px;
+height: 40px;
+width: 330px;
+border: 1px solid #d7d9da;
+}
+.login input:focus{
+padding-left: 25px;
+transition: all 1s;
+}
+.login label{
+color: #737c85;
+font-size: 14px;
+font-weight: 600;
+}
+.login button{
+background-color: #004d88;
+width: 180px;
+height: 50px;
+border:none;
+border-radius: 5px;
+color: white;
+letter-spacing: 1.5px;
+}
+.login a{
+background-color: transparent;
+text-decoration: none;
+color: #4d5a63;
+}
+.login button:hover{
+opacity: .9;
+}
+/*login end*/
+/*menu start*/
+.primarymenu{
+margin: 130px auto;
+background-color: rgba(242,245,247,0.9);
+font-weight: 100px;
+font-size: 48px;
+text-align: center;
+display: none;
+transition: transform 0.4s,opacity 0.4s;
+z-index: 9999;
+height: 98%;
+width: 98%;
+position: absolute;
+}
+.primarymenu i{
+	float: left;
+}
+.primarymenu ul,li{
+padding-top: 20px;
+list-style-type:  none;
+}
+.primarymenu a{
+font-family: helvetica;
+color: #004d88;
+text-decoration: none;
+}
+.primarymenu a:hover{
+border-bottom:solid 1px #ccc;
+}
+/*menu end*/
+/*profileopen start*/
+.profopen{
+border: 1px solid #2c3e50;
+width: 213px;
+height: 190px;
+background-color: white;
+}
+.profopnavatar{
+height: 65px;
+}
+.profopen img{
+margin-bottom: 0px;
+border-radius: 100%;
+width: 35px;
+height: 35px;
+margin: 10px;
+}
+.profopen a{
+color: black;
+text-decoration: none;
+font-size: 14px;
+line-height: 35px;
+letter-spacing: 1.3px;
+font-weight: 400;
+}
+.profopen li{
+padding-left: 30px;
+height: 35px;
+border-top: 1px solid #eee;
+list-style: none;
+}
+.profopen ul{
+width: 100%;
+padding: 0;
+}
+.profopen span{
+color: #1d6399;
+}
+.autworker{
+background-color: white;
+height: 60px;
+}
+/*profile open end*/
+/*contact*/
+.chatbox{
+	width: 270px;
+	height: 430px;
+	 overflow-y: scroll;
+	 overflow-x: hidden;
+	 display: none;
+}
+.chatheader{
+	    float: right;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	width: 270px;
+	height: 40px;
+	background-color: #014d88;	
+}
+.chatheader i{
+	margin-left: 10px;
+	width: 70px;
+    height: 14px;
+    float: left;
+    margin-top: 12px;
+	background-image: url(http://azadart.com/site/wp-content/plugins/screets-chat/skins/basic/img/icons.png);
+	background-repeat: no-repeat;
+}
+.chatbox p{
+	padding-left: 10px;
+	line-height: 1.4;
+}
+.chatbox input,label,textarea{
+	margin-top: 5px;
+	display: block;
+	margin-left: 10px;
+	
+}
+.chatbox input {
+	padding: 7px 45px;	
+}
+.chatbtn{
+	margin-top: 20px;
+	margin-left: 95px;
+	background-color: #3a99d1;
+	border:none;
+	border-radius: 5px;
+	font-weight: bold;
+	color: white;
+	padding: 7px 11px;
+	display: block;
+
+}
+.chatbox form{
+	width: 270px;
+	height: 430px;
+}
+.chatmain{
+	
+}
+/*contact end*/
+/*author*/
+.autworker ul,li{
+				list-style-type: none;
+				float: left;
+				padding: 5px;
+				margin: 5px;
+			}
+			.title-tab-profile h2{
+		color: #b9c5cd;
+		font-size: 12px;
+		font-weight: 700;
+		}
+			.autworkabout{
+				height: 470px;
+				background-color: white;
+			}
+			.autprof{
+				height: 135px;
+				border-bottom:solid 1px #f4f6f8;
+			}
+			.autprofinfo{
+
+				margin-top: 20px;
+			}
+			.autavatar img{
+				margin-top: 20px;
+				height: 70px;
+				width: 70px;
+				border-radius: 100%;
+			}
+			.autprofn{
+				color: #2c3e50;
+		font-size: 24px;
+		font-weight: 500;
+		text-transform: capitalize;
+			}
+		.position-profile{
+				color: #2ecc71;
+		font-size: 14px;
+		margin-bottom: 5px;
+		font-weight: 400;
+			}
+			.number-review-profile{
+		color: #00b0ff;
+		font-size: 14px;
+		font-weight: 400;
+		}
+			.profile-bottom{
+		height: 360px;
+		margin-top: 20px;
+		}
+			.autworinfo{
+		padding: 0;
+		 height: 440px;
+		background-color: white;
+		}
+			.contact-link{
+		padding: 25px 20px;
+		}
+		.contact-link button{
+		box-shadow: 0 2px 0 #bf392b;
+		background-color: #e74b3b;
+		border:none;
+		height: 37px;
+		width: 175px;
+		border-radius: 5px;
+		color: white;
+
+		}
+		.contact-link button:hover{
+			opacity: .9;
+			transition: all 1s;
+		}
+		.single-profile-content  li{
+		width: 100%;
+		display: block;
+		padding: 13px 30px;
+		border-top: 1px solid #f4f6f8;
+		color: #656e78;
+		margin: 0;
+		}
+		.single-profile-content ul{
+			padding: 0;
+
+		}
+		.text-right{
+			float: right;
+		}
+		.rate-it{
+			float: right;
+		}
+		/*author end*/
