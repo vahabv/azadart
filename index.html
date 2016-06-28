@@ -43,8 +43,8 @@
             </div>
             <div class="col-md-12 project-a">
                 <h1>Looking for Available Projects?</h1>
-                <button class="btnnone-a">Latest projects</button>
-                <button class="btnnone-a">Feature Projects</button>
+                <button id="btna" class="btnnone-a">Latest projects</button>
+                <button id="btnb" class="btnnone-a">Feature Projects</button>
             </div>
             <div class="container">
                 <div class="col-md-3 projectstitle-a">
@@ -71,8 +71,8 @@
             <div class="col-md-12 profiller-a">
                 <div class="container">
                     <h1 >Looking for Available Projects?</h1>
-                    <button class="btntwo-a">Latest projects</button>
-                    <button class="btntwo-a">Top Rating Profiles</button>
+                    <button id="btnc" class="btntwo-a">Latest projects</button>
+                    <button id="btnd" class="btntwo-a">Top Rating Profiles</button>
                     
                     <div class="col-md-12 freelancers-a">
                         
@@ -200,3 +200,22 @@
 </div>
 </body>
 </html>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("#btnb").click(function(){
+        $(".projectdetals-a").hide();
+    });
+    $("#btna").click(function(){
+        $(".projectdetals-a").show();
+    });
+});
+$(document).ready(function(){
+    $("#btnd").click(function(){
+        $(".freelancers-a").hide();
+    });
+    $("#btnc").click(function(){
+        $(".freelancers-a").show();
+    });
+});
+</script>
