@@ -7,18 +7,57 @@
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="css/n-style.css">
 	<body>
+<!-- search -->
+<div class="container-fluid search_project">
+	<div class="row">
+		<div class="container search_complate">
+		<a href="">
+				<i class="fa fa-times"></i>
+			</a>
+			<select class="slectcls">
+  <option value="prejectseahrch">Searching Projects</option>
+  <option value="frenalcerssearch">Searching Freelancers</option>
+
+</select>
+		<br>
+		<br>
+		<p>
+			<input type="text" name="s" class="search-top" autocomplete="off" placeholder="TYPE KEYWORD HERE">
+			<span>Press Enter</span>
+		</p>
+		<p></p>
+		<div>
+			<div class="col-md-5 col-sm-5 col-xs-7  searchproject-a">
+				<span>PROJECT TITLE</span>
+			</div>
+			<div class="col-md-2 col-sm-3 hidden-xs  searchproject-a">
+				<span>BY</span>
+			</div>
+			<div class="col-md-2 col-sm-2 hidden-sm hidden-xs  searchproject-a">
+				<span>POSTED DATE</span>
+			</div>
+			<div class="col-md-1 col-sm-2 hidden-xs  searchproject-a">
+				<span>BUDGET</span>
+			</div>
+		</div>
+
+</div>
+</div>
+</div>
+<!-- search end -->
 		<div class="primarymenu">
+
 			<a href="">
 				<i class="fa fa-times"></i>
 			</a>
-			
+			<form>
 			<ul>
 				<li><a href="">Our team</a></li>
 				<li><a href="">Contact</a></li>
 				<li><a href="">Privacy</a></li>
 				<li><a href="">Terms of service</a></li>
 			</ul>
-	
+	</form>
 		</div>
 		<div class="container-fluid content">
 			<!-- header -->
@@ -26,10 +65,10 @@
 			<div class="row header">
 			
 				<div class="col-md-4 col-xs-4 menu">
-					<i class="fa fa-bars"></i>
-					<span>MENU</span>
-					<i class="fa fa-search"></i>
-					<span>SEARCH</span>
+					<i class="fa fa-bars menumain"></i>
+					<span class="menumain">MENU</span>
+					<i class="fa fa-search searchmain"></i>
+					<span class="searchmain">SEARCH</span>
 				</div>
 				<div class="col-md-4 col-xs-4 logo">
 					<a href="../index.php">
@@ -40,7 +79,33 @@
 					<div class="proficon">
 						<img src="http://1.gravatar.com/avatar/d2a672c5ad8adcd83f9ecc215c9a2428?s=96&d=mm&r=G">
 						<span>Nijat</span>
+						<div class="profopen">
+<span class="profopnavatar">
+	<img style="margin-bottom: 0px;" src="http://0.gravatar.com/avatar/8abce4c1d7441f807b4c690b3f43cf53?s=96&d=mm&r=G">Username</span>
+	
+	<ul>
+	<li>
+		<a href="#">
+			<i class="fa fa-user"></i>
+			Your Profile
+		</a>
+	</li>
+	<li>
+		<a href="#">
+			<i class="fa fa-user"></i>
+			Notification
+		</a>
+	</li>
+	<li>
+		<a href="#">
+			<i class="fa fa-user"></i>
+			Logout
+		</a>
+	</li>
+</ul>
+</div>
 					</div>
+
 				</div>
 			</div>
 			<!-- header end -->
@@ -68,7 +133,7 @@
 						<h2>Keyword</h2>
 						<div>
 						<input type="text" name="" placeholder="Keyword">
-						<i class="fa fa-search"></i>
+						<!-- <i class="fa fa-search"></i> -->
 						</div>
 					</div>
 					<div class="col-md-2 col-xs-2 sbinput">
@@ -147,7 +212,7 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
 <script>
 $(document).ready(function(){
-    $(".menu").click(function(){
+    $(".menumain").click(function(){
         $(".primarymenu").fadeIn('fast');
     });
 });
@@ -159,8 +224,13 @@ $(document).ready(function(){
 });
 
 $(document).ready(function(){
-    $(".chatheader").click(function(){
-        $(".chatbox").fadeIn('fast');
+    $(".searchmain").click(function(){
+        $(".search_project").fadeIn('fast');
+    });
+});
+$(document).ready(function(){
+    $(".proficon").click(function(){
+        $(".profopen").toggle('fast');
     });
 });
 </script>
