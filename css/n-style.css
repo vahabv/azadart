@@ -1163,7 +1163,7 @@ margin-top: 50px;
 }
 .profilebtn-a{
    
-    height: 4vw;
+    height: 5vw;
     text-align: center;
     color: #2c3e50;
     box-shadow: 0 1px 1px rgba(119,119,119,0.2);
@@ -1171,19 +1171,32 @@ margin-top: 50px;
     font-weight: 600;
     border: none;
     border-top: 5px solid #3783C4;;
-    width: 13vw;
+    width: 14vw;
     
 }
 .profilebtndisabled-a{
 
-    height: 4vw;
+    height: 5vw;
     text-align: center;
     color: #DDD;
     box-shadow: 0 1px 1px rgba(119,119,119,0.2);
     background-color: #fff;
     font-weight: 600;
     border: none;
-    width: 12vw;
+    width: 14vw;
+    border-top: 5px solid #3783C4;
+}
+.profilebtndisabled-b {
+	border-top: 5px solid #3783C4;
+    height: 5vw;
+    text-align: center;
+    color: #DDD;
+    box-shadow: 0 1px 1px rgba(119,119,119,0.2);
+    background-color: #fff;
+    font-weight: 600;
+    border: none;
+    width: 14vw;
+    margin-top: 1vw;
 }
 .profilebtn-a:focus{
    outline: 0;
@@ -1422,10 +1435,11 @@ margin-top: 50px;
     color: #DDD;
 }
 .iscijobs-a{
+	display: none;
   padding-top: 13px;
    margin-top: 3vw;
   background-color: white;
-  height: 49vw;
+  height: 63vw;
 }
 .iscijobs-a h4{
     font-size: 17px;

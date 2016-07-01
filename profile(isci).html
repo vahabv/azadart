@@ -16,15 +16,19 @@
             
             <h3>Username'Profile</h3><br>
             <button class="profilebtn-a">Account Details</button>
-            <button class="profilebtndisabled-a">Account Details</button>
-            <button class="profilebtndisabled-b">Account Details</button>
+            <button class="profilebtndisabled-a">Profiles Details</button>
+            <button class="profilebtndisabled-b">Project Details</button>
             
           </div>
           <div class="container">
             <div class="col-md-12 profiledit-a">
               <div class="col-md-7 open">
-                <div class="col-md-12 workhistory-a"><h4><b>Work history and Reviews (0)</b></h4></div>
-                </div>
+<div class="col-md-12 workhistory-a"><h4><b>Current bids </b></h4></div>
+<div class="col-md-12  notposte-a"><p>No current bids.
+
+</p></div>
+
+                           </div>
                 <!-- <div class="col-md-12  notposte-a"><p>You have not posted any projects yet.
                 </p></div> -->
                 <div class="col-md-7 usrnameediting-a">
@@ -46,7 +50,7 @@
                   
                 </div>
                 
-                <div class="col-md-8 iscijobs-a">
+                <div class="col-md-7 iscijobs-a">
                   
                   
                   <h4>Your Skills</h4>
@@ -69,12 +73,12 @@
                   <textarea  class="protitle-a" type="text" name=""></textarea>
                   <br>
                   <h4>About You</h4>
-                  <input step="5" min="1" type="number" name="" value="" style="width: 66px;height: 34px;">year(s)
+                  <input step="5" min="1" type="number" name="" value="" style="width: 66px;height: 34px;"> &nbsp year(s)
                   <br>
                   <input type="file" value="Your Portfolio">
                 </div>
                 
-                <div class="col-md-3 userara-a">
+                <div class="col-md-4 userara-a">
                   <p>You have not confirmed your email yet, please check out your mailbox.</p>
                   <p><a href="#">Request confirm email.</a></p>
                   <ul>
@@ -108,6 +112,8 @@
   $(".profilebtndisabled-a").click(function(){
   $(".usrnameediting-a").hide();
   $(".iscijobs-a").show();
+  $(".notposte-a").hide();
+  $(".workhistory-a").hide();
   });
   $(".profilebtn-a").click(function(){
   $(".usrnameediting-a").show();
@@ -119,6 +125,8 @@
   $(".open").show();
   $(".iscijobs-a").hide();
   $(".usrnameediting-a").hide();
+    $(".notposte-a").show();
+  $(".workhistory-a").show();
   });
   });
   </script>
