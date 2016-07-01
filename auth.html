@@ -1,85 +1,97 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<title></title>
-		<link rel="stylesheet" type="text/css" href="css/n-style.css">
-		<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-		<style type="text/css">
-		li{
-			border-top: solid 1px gray;
-		}
-		ul li{
-				list-style: none;
-		}
-		.auth{
-			height: 800px;
-			background-color: white;
-		}
-			label,span{
-				color: #5f6f81;
-		font-size: 16px;
-		font-weight: 600;
-		vertical-align: middle;
-				display: block;
-				padding: 2px;
-			}
-			input{
-		padding-left: 15px;
-		border-radius: 5px;
-		height: 40px;
-		width: 330px;
-		border: 1px solid #d7d9da;
-			}
-		</style>
-	</head>
-	<body>
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12 auth">
-					<div class="authtitle">
-						<span>Already have an account?</span>
-						<a href="">Login</a>
-					</div>
-					<form>
-						<ul>
-							<li>
-								<label>Username
-									<span>Enter username</span>
-								</label>
-								<input type="text" name="" placeholder="Enter username">
-							</li>
-							<li>
-								<label>Email Adress
-									<span>Enter a email</span>
-								</label>
-								<input type="text" name="" placeholder="Enter username">
-							</li>
-							<li>
-								<label>I'm Looking To:
-									<span>Choose type account</span>
-								</label>
-								<input type="checkbox" name="">
-							</li>
-							<li>
-								<label>Password
-									<span>Enter password</span>
-								</label>
-								<input type="text" name="" placeholder="Password">
-							</li>
-							<li>
-								<label>Retype Password
-									<span>Retype Password</span>
-								</label>
-								<input type="text" name="" placeholder="Password">
-							</li>
-							<li>
-								<button></button>
-								<span>By creating an account, you agree to our <a href="">Term of Use and Privacy policy</a></span>
-							</li>
-						</ul>
-					</form>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/n-style.css">
+</head>
+<body>
+<div class="container">
+	<div class="row">
+		<div class="col-md-12">
+			<div class="col-md-8 tab-content">
+				<div class="title-auth">
+					<span>Already have an account? <a href="">Login</a></span>
 				</div>
+				<div class="auth-form">
+				<div class="row">
+				<div class="col-md-12">
+				<div class="col-md-4 authfomr4">
+					<label>Username</label>
+					<span>Enter username</span>
+					</div>
+					<div class="col-md-8">
+					<input type="text" name="" placeholder="Enter Username">
+					</div>
+					</div>
+					</div>
+				</div>
+				<div class="auth-form">
+					<div class="row">
+				<div class="col-md-12">
+				<div class="col-md-4 authfomr4">
+					<label>Email Address</label>
+					<span>Enter a email</span>
+					</div>
+					<div class="col-md-8">
+					<input type="text" name="" placeholder="Your email adress">
+					</div>
+					</div>
+					</div>
+				</div>	
+				<div class="auth-form">
+					<div class="row">
+				<div class="col-md-12">
+				<div class="col-md-4 authfomr4">
+					<label>I'm Looking To:</label>
+					<span>Choose type account</span>
+					</div>
+					<div class="col-md-8">
+					<input type="checkbox" name="">
+					</div>
+					</div>
+					</div>
+				</div>	
+				<div class="auth-form">
+					<div class="row">
+				<div class="col-md-12">
+				<div class="col-md-4 authfomr4">
+					<label>Password</label>
+					<span>Enter password</span>
+					</div>
+					<div class="col-md-8">
+					<input type="text" name="" placeholder="Password">
+					</div>
+					</div>
+					</div>
+				</div>	
+				<div class="auth-form">
+					<div class="row">
+				<div class="col-md-12">
+				<div class="col-md-4 authfomr4">
+					<label>Retype Password</label>
+					<span>Retype password</span>
+					</div>
+					<div class="col-md-8">
+					<input type="text" name="" placeholder="Password">
+					</div>
+					</div>
+					</div>
+				</div>
+				<div class="form-authsend">
+				<div class="row">
+				<div class="col-md-12">
+				<div class="col-md-4"></div>
+				<div class="col-md-8">
+				<button class="authbtn" type="submit">Create account</button>
+					<p>By creating an account, you agree to our <a href=""> Term of Use and Privacy policy</a></p>
+					</div>
+					</div>
+					</div>
+				</div>			
 			</div>
-		</div>
-	</body>
+		</div>		
+	</div>	
+</div>	
+</body>
 </html>

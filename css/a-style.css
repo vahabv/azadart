@@ -229,6 +229,17 @@ height: 200px;
 background-color: white;
 margin-top: 20px;
 }
+.cretbtn{
+	float: right;
+top: 105px;
+width: 180px;
+height: 40px;
+background: #3783c4;
+border-radius: 5px;
+color: white;
+border:none;
+position: relative;
+}
 .btntwo-a{
 height: 5vw;
 color: #2c3e50;
@@ -239,6 +250,20 @@ border: none;
 border-top: 5px solid #00b0ff;
 width: 14vw;
 margin-top: 7vw;
+}
+.btn-post-profile{
+background-color: #004d88;
+padding: 10px 20px;
+font-size: 14px;
+border-radius: 4px;
+-webkit-transition: all 0.3s ease-in-out;
+transition: all 0.3s ease-in-out;
+background-clip: padding-box;
+color: #fff;
+letter-spacing: 1.5px;
+border: none;
+float: right;
+margin-top: 6vw;
 }
 /*end #####/*/
 /*freelancers-a start*/

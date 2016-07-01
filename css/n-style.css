@@ -53,9 +53,11 @@ margin-top: 30px;
 	color: red;
 }
 .login-n{
+	cursor: pointer;
 	letter-spacing: 1.3px;
 }
 .signup-n{
+	    cursor: pointer;
 	    border: 1px solid #FFF;
 	        display: inline-block;
     border-radius: 4px;
@@ -142,19 +144,21 @@ border:none;
 position: relative;
 }
 .btnmain:hover{
-transition: all 1s;
+transition: all .5s;
 opacity: 0.8;
 
 }
 .btnmain:hover .fa-plus-circle{
 	color: white;
 	right: 150px;
-	transition: 1s linear;
+	transition: .5s linear;
 }
 .fa-plus-circle{
 	color: #f2f5f7;
 position: absolute;	
 right:-20px;
+line-height: 1.5;
+
 }
 .worker{
 width: 530px;
@@ -226,14 +230,26 @@ float: right;
 }
 /*footer end*/
 /*signup start*/
+.signupfull{
+	display: none;
+	width: 100%;
+    height: 100%;
+    position: fixed;
+    background-color: rgba(242,245,247,0.9);
+    transition: transform 0.4s,opacity 0.4s;
+}
 .signup{
+display: none;
+left: 50%;
 height: 800px;
 width: 500px;
 background: #fff;
-margin: 50px auto;
+margin: 20px;
 border-radius: 1px;
 box-shadow: 0 1px 1px;
 border:none;
+position: absolute;
+transform: translateX(-50%);
 }
 .signup h4{
 font-family: helvetica;
@@ -322,6 +338,7 @@ border:none;
 border-radius: 5px;
 color: white;
 letter-spacing: 1.5px;
+margin-left: 28px;
 }
 .loginfull form{
 border-radius: 1px;
@@ -333,13 +350,12 @@ height: 415px;
 margin: 50px auto;
 }
 .loginfull{
-	display: none;
-    background-color: rgba(242,245,247,0.9);
-    transition: transform 0.4s,opacity 0.4s;
+position: absolute;
+display: none;
+transform: translateX(-50%);
+    left: 50%;
     z-index: 9999;
-    height: 100%;
-    width: 100%;
-    position: absolute;
+
 }
 .loginfull a{
 background-color: transparent;
@@ -673,3 +689,55 @@ padding: 0;
 color: #1d6399;
 }
 /*openprofile end*/
+/*auth star*/
+.form-authsend{
+	height: 155px;
+	    margin-top: 40px;
+}
+.authfomr4{
+	margin-top: 25px;
+}
+.tab-content{
+height: 740px;
+background-color: white;
+}
+.title-auth{
+height: 65px;
+line-height: 5;
+border-bottom: solid 1px #ecf0f1;
+}
+.title-auth span{
+	    margin-left: 20px;
+}
+.auth-form{
+	height: 100px;
+	border-bottom: solid 1px #ecf0f1;
+}
+.auth-form label{
+	display: block;
+}
+.auth-form input{
+width: 100%;
+border: 1px solid #d7d8da;
+border-radius: 4px;
+background-color: #fff;
+height: auto;
+padding: 12px 10px;
+font-weight: 300;
+color: #737c85;
+margin-top: 25px;
+}
+.authbtn{
+height: 40px;
+width: 140px;
+background-color: #4d5a63;
+border:none;
+border-radius: 5px;
+color: white;
+box-shadow: 
+box-shadow: 0 2px 0 #374046;
+}
+.form-authsend p{
+	margin-top: 15px;
+}
+/*auth end*/
