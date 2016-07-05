@@ -12,11 +12,11 @@ class CreateBidProjectTable extends Migration
      */
     public function up()
     {
-        Schema::create('invite_worker', function (Blueprint $table) {
+        Schema::create('bid_project', function (Blueprint $table) {
             $table->increments('id');
-            $table->integer('worker_id');
+            $table->integer('worker_id')->unsigned();
             $table->foreign('worker_id')->references('id')->on('workers');
-            $table->integer('project_id');
+            $table->integer('project_id')->unsigned();
             $table->foreign('project_id')->references('id')->on('projects');
             $table->integer('status');
             $table->string('budget',255);
@@ -33,6 +33,6 @@ class CreateBidProjectTable extends Migration
      */
     public function down()
     {
-       Schema::drop('invite_worker');
+       Schema::drop('bid_project');
     }
 }

@@ -13,8 +13,7 @@ class CreateSkillsTable extends Migration
         public function up()
     {
         Schema::create('skills', function (Blueprint $table) {
-            $table->increments('id')->unsigned();
-            $table->foreign('id')->references('skills_id')->on('workers_skills');
+            $table->increments('id');
             $table->string('skill_name',20);   
             $table->timestamps();
         });

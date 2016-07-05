@@ -14,14 +14,14 @@ class CreateProjectsTable extends Migration
     {
         Schema::create('projects', function (Blueprint $table) {
             $table->increments('id');
-            $table->integer('company_id');
-            $table->foreign('company_id')->references('id')->on('compaines');
+            $table->integer('company_id')->unsigned();
+            $table->foreign('company_id')->references('id')->on('companies');
             $table->text('project_title');
             $table->string('project_budget',255);
             $table->string('project_category',255);
             $table->string('project_attachment',255);
             $table->text('project_desc');
-            $table->tinyInteger('numbers',1);
+            $table->boolean('project_status');
             $table->timestamps();
         });
     }

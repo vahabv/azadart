@@ -14,9 +14,9 @@ class CreateInviteWorkerTable extends Migration
     {
         Schema::create('invite_worker', function (Blueprint $table) {
             $table->increments('id');
-            $table->integer('project_id');
+            $table->integer('project_id')->unsigned();
             $table->foreign('project_id')->references('id')->on('projects');
-            $table->integer('worker_id');
+            $table->integer('worker_id')->unsigned();
             $table->foreign('worker_id')->references('id')->on('workers');
             $table->integer('status');
             $table->timestamps();
@@ -30,6 +30,6 @@ class CreateInviteWorkerTable extends Migration
      */
     public function down()
     {
-       Schema::drop('workers_skills');
+       Schema::drop('invite_worker');
     }
 }
