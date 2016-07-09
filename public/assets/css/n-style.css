@@ -130,7 +130,11 @@ background-color: black;
 .background{ /*background*/
 padding-top: 105px;
 height: 450px;
+<<<<<<< HEAD
 background-image: url(/assets/img/bg-header.jpg);
+=======
+background-image: url(http://azadart.com/site/wp-content/themes/azadart/img/bg-header.jpg);
+>>>>>>> ef636586db8bde3dfc457dbabeb247b832ed3b47
 }
 .main{ /*main*/
 height: 280px;
@@ -240,7 +244,10 @@ float: right;
 /*footer end*/
 /*signup start*/
 .signupfull{
+<<<<<<< HEAD
 	z-index: 99;
+=======
+>>>>>>> ef636586db8bde3dfc457dbabeb247b832ed3b47
 	display: none;
 	width: 100%;
     height: 100%;
@@ -249,7 +256,10 @@ float: right;
     transition: transform 0.4s,opacity 0.4s;
 }
 .signup{
+<<<<<<< HEAD
 	z-index: 999;
+=======
+>>>>>>> ef636586db8bde3dfc457dbabeb247b832ed3b47
 display: none;
 left: 50%;
 height: 800px;
@@ -415,7 +425,10 @@ border-bottom:solid 1px #ccc;
 /*menu end*/
 /*profileopen start*/
 .profopen{
+<<<<<<< HEAD
 z-index: 55;
+=======
+>>>>>>> ef636586db8bde3dfc457dbabeb247b832ed3b47
 border: 1px solid #2c3e50;
 width: 213px;
 height: 190px;

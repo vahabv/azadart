@@ -14,8 +14,14 @@
 
 Route::auth();
 
+<<<<<<< HEAD
 
 Route::get('/', 'HomeController@index');
+=======
+Route::get('/home', 'HomeController@index');
+
+Route::get('/index', 'HomeController@index');
+>>>>>>> ef636586db8bde3dfc457dbabeb247b832ed3b47
 
 Route::get('/submitproject', 'HomeController@submitproject');
 

@@ -8,6 +8,7 @@
         <link rel="stylesheet" type="text/css" href="/assets/css/bootstrap.min.css">
     </head>
     <body>
+<<<<<<< HEAD
     <div class="loginfull">
                     
                     <form method="POST" action="{{ url('/login') }}">
@@ -43,6 +44,8 @@
     </form>
 
 </div>
+=======
+>>>>>>> ef636586db8bde3dfc457dbabeb247b832ed3b47
         <!-- container fluid start###################### -->
         <div class="container-fluid main-a">
             <div class="row">
@@ -63,6 +66,7 @@
             <button class="post-a"> <a href="submitproject">Post a Project</a></button>
                     </div>
                 </div>
+<<<<<<< HEAD
 
                 <div class="col-md-5 rigth-a">
                     <div class="a-slbtn">
@@ -102,6 +106,13 @@
 </div>
 </div> 
                 @endif
+=======
+                <div class="col-md-5 rigth-a">
+                    <div class="a-slbtn">
+                        <button class="sign-a"  type="submit">SIGN UP</button>
+                        <button class="login-a" type="submit">LOGIN</button>
+                    </div>
+>>>>>>> ef636586db8bde3dfc457dbabeb247b832ed3b47
                     <div class="nul2">
                         <h1>Need a job? <br>
                         Tell us your story</h1>
@@ -290,6 +301,7 @@ $(document).ready(function(){
     $("#btnc").click(function(){
         $(".freelancers-a").show();
     });
+<<<<<<< HEAD
     $(".menumain").click(function(){
 $(".primarymenu").fadeIn('fast');
 });
@@ -319,5 +331,7 @@ $(".signupfull").click(function(){
 $(".signupfull").fadeOut('fast');
 $(".loginfull").fadeOut('fast');
 });
+=======
+>>>>>>> ef636586db8bde3dfc457dbabeb247b832ed3b47
 });
 </script>
