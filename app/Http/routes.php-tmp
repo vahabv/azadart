@@ -9,11 +9,9 @@
 | It's a breeze. Simply tell Laravel the URIs it should respond to
 | and give it the controller to call when that URI is requested.
 |
-*/
-
+ */
 
 Route::auth();
-
 
 Route::get('/', 'HomeController@index');
 
@@ -23,10 +21,4 @@ Route::get('/auth', 'HomeController@auth');
 
 Route::get('/author', 'HomeController@author');
 
-
 Route::get('/profiles', 'HomeController@profiles');
-
-
-
-
-

@@ -7,23 +7,83 @@ use Illuminate\Http\Request;
 
 class HomeController extends Controller
 {
-    /**
-     * Create a new controller instance.
-     *
-     * @return void
-     */
-    public function __construct()
-    {
-        $this->middleware('auth');
-    }
+   public function index ()
+  {
+    return  view ('index');
+  }
+  public function submitproject ()
+  {
+    return  view ('submitproject');
+  }
+public function auth ()
+  {
+    return  view ('auth');
+  }
 
-    /**
-     * Show the application dashboard.
-     *
-     * @return \Illuminate\Http\Response
-     */
-    public function index()
-    {
-        return view('home');
-    }
+
+
+public function author ()
+  {
+    return  view ('author');
+  }
+  public function profiles ()
+  {
+    return  view ('profiles');
+  }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//     /**
+//      * Create a new controller instance.
+//      *
+//      * @return void
+//      */
+//     public function __construct()
+//     {
+//         $this->middleware('auth');
+//     }
+
+//     /**
+//      * Show the application dashboard.
+//      *
+//      * @return \Illuminate\Http\Response
+//      */
+//     public function index()
+//     {
+//         return view('home');
+//     }

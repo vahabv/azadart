@@ -30,6 +30,6 @@ class CreateInviteWorkerTable extends Migration
      */
     public function down()
     {
-       Schema::drop('invite_worker');
+       Schema::drop('workers_skills');
     }
 }
