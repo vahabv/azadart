@@ -435,9 +435,8 @@ border-bottom:solid 1px #ccc;
 /*profileopen start*/
 .profopen{
 z-index: 55;
-=======
 border: 1px solid #2c3e50;
-width: 213px;
+width: 210px;
 height: 190px;
 background-color: white;
 }
@@ -685,7 +684,7 @@ top: 30px;
 position: absolute;
 display: none;
 border: 1px solid #2c3e50;
-width: 213px;
+width: 210px;
 height: 190px;
 background-color: white;
 }
@@ -794,7 +793,7 @@ height: 50px;
 }
 .main-a{
 background-color: #f2f5f7;
-height: 2490px;
+height: 2400px;
 }
 .a-slbtn{
   height: 30px;
