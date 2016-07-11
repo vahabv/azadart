@@ -72,13 +72,7 @@
 						<img alt="AzadArt" src="/assets/img/logowhite.png">
 					</a>
 				</div>
-<<<<<<< HEAD
-				@if (Auth::guest())
 				<div class="col-md-3 col-xs-3 profile">
-				
-=======
-				<div class="col-md-3 col-xs-3 profile">
->>>>>>> ef636586db8bde3dfc457dbabeb247b832ed3b47
 					<div class="alllogin">
 						<div class="alllogin-n">
 							
@@ -89,48 +83,6 @@
 						</div>
 					</div>
 				</div>
-<<<<<<< HEAD
-				@else
-				 <div class="proficon">
-<img src="http://1.gravatar.com/avatar/d2a672c5ad8adcd83f9ecc215c9a2428?s=96&d=mm&r=G">
-<span>{{ Auth::user()->name }}</span>
-<div class="profopen">
-		<span class="profopnavatar">
-		<img style="margin-bottom: 0px;" src="http://0.gravatar.com/avatar/8abce4c1d7441f807b4c690b3f43cf53?s=96&d=mm&r=G">{{ Auth::user()->name }}</span>
-		
-<ul>
-	<li>
-		<a href="#">
-			<i class="fa fa-user"></i>
-					Your Profile
-		</a>
-	</li>
-	<li>
-		<a href="#">
-			<i class="fa fa-user"></i>
-					Notification
-		</a>
-	</li>
-	<li>
-		<a href="{{ url('/logout') }}">
-			<i class="fa fa-user"></i>
-					Logout
-		</a>
-	</li>
-</ul>
-</div>
-</div> 
-				@endif
-				<div class="loginfull">
-					
-					<form method="POST" action="{{ url('/login') }}">
-					{{ csrf_field() }}
-						<h4>AzadArt-OPX</h4>
-						<label>İstifadəçi adı və ya e-poçt</label><br><br>
-						<input type="text" name="email" placeholder="İstifadəçi adını daxil edin" value="{{ old('email') }}"><br><br>
-						<label>Şifrənizi daxil edin</label><br><br>
-						<input type="password" name="password" placeholder="Şifrə"><br><br>
-=======
 				<!-- <div class="proficon">
 								<img src="http://1.gravatar.com/avatar/d2a672c5ad8adcd83f9ecc215c9a2428?s=96&d=mm&r=G">
 								<span>Nijat</span>
@@ -168,7 +120,6 @@
 						<input type="text" name="" placeholder="İstifadəçi adını daxil edin"><br><br>
 						<label>Şifrənizi daxil edin</label><br><br>
 						<input type="password" name="" placeholder="Şifrə"><br><br>
->>>>>>> ef636586db8bde3dfc457dbabeb247b832ed3b47
 						<button>Daxil Ol</button>
 						<a href="">Şifrəmi Unutmuşam</a>
 					</form>
@@ -177,20 +128,6 @@
 				</div>
 <div class="signup">
 <h4>AzadArt-OPX</h4>
-<<<<<<< HEAD
-	<form id="signup" method="POST" action="{{ url('/register') }}">
-	{{ csrf_field() }}
-		<span>Vəzifənizi təyin edin</span><br><br>
-		<label for="username">İstifadəçi adı</label><br>
-		<input type="text" id="name" placeholder="İstifadəçi adını daxil edin" name="name" value="{{ old('name') }}" ><br><br>
-			<label for="email">Email adresiniz</label><br>
-		<input type="text" name="email" placeholder="Email adresinizi daxil edin" value="{{ old('email') }}"><br><br>
-			<label for="password" name="password" >Şifrə</label><br>
-		<input type="password" name="password" placeholder="Şifrənizi daxil edin"><br><br>
-		<label for="password_confirmation">Şifrənizi Təkrar yazın</label><br>
-		<input type="password" name="password_confirmation" placeholder="Şifrənizi təkrar daxil edin"><br><br>	
-		<button type="submit" class="signbtn">Qeydiyyatdan Keç</button><br><br>
-=======
 	<form id="signup">
 		<span>Vəzifənizi təyin edin</span><br><br>
 		<label for="username">İstifadəçi adı</label><br>
@@ -202,7 +139,6 @@
 		<label for="password_retypy">Şifrənizi Təkrar yazın</label><br>
 		<input type="text" name="password_retypy" placeholder="Şifrənizi təkrar daxil edin"><br><br>	
 		<button class="signbtn">Qeydiyyatdan Keç</button><br><br>
->>>>>>> ef636586db8bde3dfc457dbabeb247b832ed3b47
 		<p>By creating an account, you agree to our</p>
 		<a href="">Term of Use and Privacy policy</a>
 	</form>
@@ -241,13 +177,8 @@
 					</div>
 					<div class="col-md-2 col-xs-2 sbinput">
 						<h2>Hourly rate</h2>
-<<<<<<< HEAD
-						<div>
-							<input  type="range" name="">
-=======
 						<div class="rang">
 							<input class="range" type="range" name="">
->>>>>>> ef636586db8bde3dfc457dbabeb247b832ed3b47
 						</div>
 					</div>
 					<div class="col-md-2 col-xs-2 sbinput">

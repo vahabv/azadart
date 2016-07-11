@@ -8,7 +8,6 @@
         <link rel="stylesheet" type="text/css" href="/assets/css/bootstrap.min.css">
     </head>
     <body>
-<<<<<<< HEAD
     <div class="loginfull">
                     
                     <form method="POST" action="{{ url('/login') }}">
@@ -29,12 +28,13 @@
     <form id="signup" method="POST" action="{{ url('/register') }}">
     {{ csrf_field() }}
         <span>Vəzifənizi təyin edin</span><br><br>
-        <input type="checkbox" name="">
+        <input type="radio" value="0" style="height:20px;width:20px;" name="status">
+        <input type="radio" value="1" style="height:20px;" name="status">
         <label for="username">İstifadəçi adı</label><br>
         <input type="text" id="name" placeholder="İstifadəçi adını daxil edin" name="name" value="{{ old('name') }}" ><br><br>
             <label for="email">Email adresiniz</label><br>
-        <input type="text" name="email" placeholder="Email adresinizi daxil edin" value="{{ old('email') }}"><br><br>
-            <label for="password" name="password" >Şifrə</label><br>
+        <input type="email" name="email" placeholder="Email adresinizi daxil edin" value="{{ old('email') }}"><br><br>
+            <label for="password" name="password">Şifrə</label><br>
         <input type="password" name="password" placeholder="Şifrənizi daxil edin"><br><br>
         <label for="password_confirmation">Şifrənizi Təkrar yazın</label><br>
         <input type="password" name="password_confirmation" placeholder="Şifrənizi təkrar daxil edin"><br><br>  
@@ -44,8 +44,6 @@
     </form>
 
 </div>
-=======
->>>>>>> ef636586db8bde3dfc457dbabeb247b832ed3b47
         <!-- container fluid start###################### -->
         <div class="container-fluid main-a">
             <div class="row">
@@ -66,7 +64,6 @@
             <button class="post-a"> <a href="submitproject">Post a Project</a></button>
                     </div>
                 </div>
-<<<<<<< HEAD
 
                 <div class="col-md-5 rigth-a">
                     <div class="a-slbtn">
@@ -106,23 +103,19 @@
 </div>
 </div> 
                 @endif
-=======
-                <div class="col-md-5 rigth-a">
-                    <div class="a-slbtn">
-                        <button class="sign-a"  type="submit">SIGN UP</button>
-                        <button class="login-a" type="submit">LOGIN</button>
-                    </div>
->>>>>>> ef636586db8bde3dfc457dbabeb247b832ed3b47
+
+            
                     <div class="nul2">
                         <h1>Need a job? <br>
                         Tell us your story</h1>
-                        <button class="create-a"> <a href="auth">Create a Profile</a></button>
+                       <a href="auth"> <button class="create-a"> Create a Profile</button></a>
                     </div>
                 </div>
                 
             </div>
             <div class="col-md-12 project-a">
-            <button class="cretbtn"><a href="">Post a Project</a></button>
+            <a href=""><button class="cretbtn">Post a Project</button></a>
+            <div class="container">
                 <h1>Looking for Available Projects?</h1>
                 <button id="btna" class="btnnone-a">Latest projects</button>
                 <button id="btnb" class="btnnone-a">Feature Projects</button>
@@ -145,7 +138,7 @@
                     <div class="col-md-3">AzadArt</div>
                     <div class="col-md-4">20.16.20</div>
                     <div class="col-md-2">5$
-                    <button class="btnsummary"> <a href="">Apply</a></button>
+                   <a href=""> <button class="btnsummary"> Apply</button></a>
                     </div>
                     
                 </div>
@@ -154,7 +147,7 @@
             <div class="col-md-12 profiller-a">
                 <div class="container">
                     <h1>Looking for Professional Freelancers?</h1>
-                <button class="btn-post-profile"><a href="auth">Create a Profile</a></button>
+               <a href="auth"> <button class="btn-post-profile">Create a Profile</button></a>
                     <button id="btnc" class="btntwo-a">Latest projects</button>
                     <button id="btnd" class="btntwo-a">Top Rating Profiles</button>
                     
@@ -166,7 +159,7 @@
                                 <span>Jamisony4870</span><br>
                                 <a href="">these discounts are great</a>
                             </div>
-                            <button><a href="author">View Profile</a></button>
+                            <a href="author"><button>View Profile</button></a>
                             <div class="col-md-12 bottom-profile-a">
                                 <div class="col-md-6 star-a">
                                     <i class="fa fa-star-o off star-off-png"></i>
@@ -188,7 +181,7 @@
                                 <span>Jamisony4870</span><br>
                                 <a href="">these discounts are great</a>
                             </div>
-                            <button><a href="author">View Profile</a></button>
+                            <a href="author"><button>View Profile</button></a>
                             <div class="col-md-12 bottom-profile-a">
                                 <div class="col-md-6 star-a">
                                     <i class="fa fa-star-o off star-off-png"></i>
@@ -270,18 +263,22 @@
 </p><h4>  <b> Hoover</b></h4>
 </div>
 </div>
+
+</div>
+
+
+
+</div>
+</div>
 <div class="col-md-12 footer-a">
-<!-- <img alt="AzadArt" src="http://azadart.com/site/wp-content/themes/azadart/img/logo-fre-white.png ">
+<img alt="AzadArt" src="/assets/img/logowhite.png">
+
 <div class="Designeid-a">
-<a href="../index.html">AzadArt</a>
+<a href="../">AzadArt</a>
 <span > - Powered by AzadArt inc. </span>
-</div> -->
+</div>
 </div>
 
-</div>
-
-</div>
-</div>
 </body>
 </html>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
@@ -301,7 +298,7 @@ $(document).ready(function(){
     $("#btnc").click(function(){
         $(".freelancers-a").show();
     });
-<<<<<<< HEAD
+
     $(".menumain").click(function(){
 $(".primarymenu").fadeIn('fast');
 });
@@ -318,7 +315,6 @@ $(".sign-a").click(function(){
 $(".signupfull").fadeIn('fast');
 $(".signup").fadeIn('fast');
 });
-
 $(".signupfull").click(function(){
 $(".signupfull").fadeOut('fast');
 $(".signup").fadeOut('fast');
@@ -331,7 +327,5 @@ $(".signupfull").click(function(){
 $(".signupfull").fadeOut('fast');
 $(".loginfull").fadeOut('fast');
 });
-=======
->>>>>>> ef636586db8bde3dfc457dbabeb247b832ed3b47
 });
 </script>

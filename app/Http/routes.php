@@ -14,25 +14,21 @@
 
 Route::auth();
 
-<<<<<<< HEAD
 
 Route::get('/', 'HomeController@index');
-=======
-Route::get('/home', 'HomeController@index');
-
-Route::get('/index', 'HomeController@index');
->>>>>>> ef636586db8bde3dfc457dbabeb247b832ed3b47
-
-Route::get('/submitproject', 'HomeController@submitproject');
-
 Route::get('/auth', 'HomeController@auth');
 
-Route::get('/author', 'HomeController@author');
+Route::group(['middleware' => ['auth']], function () {
+
+	Route::get('/submitproject', 'HomeController@submitproject');
+
+	Route::get('/author', 'HomeController@author');
+
+	Route::get('/profile', 'HomeController@profile');
+
+	Route::get('/profiles', 'HomeController@profiles');
 
 
-Route::get('/profiles', 'HomeController@profiles');
-
-
-
+});
 
 

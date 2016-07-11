@@ -19,9 +19,6 @@ public function auth ()
   {
     return  view ('auth');
   }
-
-
-
 public function author ()
   {
     return  view ('author');
@@ -29,6 +26,11 @@ public function author ()
   public function profiles ()
   {
     return  view ('profiles');
+  }
+  public function profile ()
+  {
+    return  view ('profile');
+    
   }
 }
 
