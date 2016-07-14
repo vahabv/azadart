@@ -11,26 +11,29 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
 
 Route::auth();
 
-Route::get('/home', 'HomeController@index');
 
-Route::get('/index', 'HomeController@index');
-
-Route::get('/submitproject', 'HomeController@submitproject');
-
+Route::get('/', 'HomeController@index');
 Route::get('/auth', 'HomeController@auth');
 
-Route::get('/author', 'HomeController@author');
+Route::group(['middleware' => ['auth']], function () {
+
+	Route::get('/submitproject', 'HomeController@submitproject');
+
+	Route::get('/author', 'HomeController@author');
+	Route::get('/auth', 'HomeController@author');
 
 
-Route::get('/profiles', 'HomeController@profiles');
+	Route::get('/profile', 'HomeController@profile');
+
+	Route::get('/profiles', 'HomeController@profiles');
+
+	Route::post('/insert', 'ProfileController@insert');
 
 
 
+});
 
 
