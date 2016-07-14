@@ -75,11 +75,35 @@
 				<div class="col-md-3 col-xs-3 profile">
 					<div class="alllogin">
 						<div class="alllogin-n">
-							
-							<span class="login-n" href="">LOGIN</span>
-							
-							
-							<span class="signup-n" href="">SIGN UP</span>
+						 <div class="proficon">
+<img src="http://1.gravatar.com/avatar/d2a672c5ad8adcd83f9ecc215c9a2428?s=96&d=mm&r=G ">
+<span>{{ Auth::user()->name }}</span>
+<div class="profopen">
+        <span class="profopnavatar">
+        <img style="margin-bottom: 0px;" src="http://0.gravatar.com/avatar/8abce4c1d7441f807b4c690b3f43cf53?s=96&d=mm&r=G ">{{ Auth::user()->name }}</span>
+        
+<ul>
+    <li>
+        <a href="#">
+            <i class="fa fa-user"></i>
+                    Your Profile
+        </a>
+    </li>
+    <li>
+        <a href="#">
+            <i class="fa fa-user"></i>
+                    Notification
+        </a>
+    </li>
+    <li>
+        <a href="{{ url('/logout') }}">
+            <i class="fa fa-user"></i>
+                    Logout
+        </a>
+    </li>
+</ul>
+</div>
+</div> 
 						</div>
 					</div>
 				</div>

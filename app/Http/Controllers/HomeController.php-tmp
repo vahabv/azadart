@@ -2,6 +2,8 @@
 
 namespace App\Http\Controllers;
 
+use Auth;
+
 class HomeController extends Controller {
 	public function index() {
 		return view('index');
@@ -19,8 +21,13 @@ class HomeController extends Controller {
 		return view('profiles');
 	}
 	public function profile() {
-		return view('profile');
+		$userType = Auth::user()->status;
+		if ($userType == 0) {
 
+			return view('profile');
+		} else {
+			return view('profile');
+		}
 	}
 }
 

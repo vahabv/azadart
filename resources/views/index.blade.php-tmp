@@ -3,7 +3,7 @@
     <head>
         <title>AzadArt</title>
         <!-- Latest compiled and minified CSS -->
-        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css " rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
         <link rel="stylesheet" type="text/css" href="/assets/css/n-style.css">
         <link rel="stylesheet" type="text/css" href="/assets/css/bootstrap.min.css">
     </head>
@@ -28,8 +28,12 @@
     <form id="signup" method="POST" action="{{ url('/register') }}">
     {{ csrf_field() }}
         <span>Vəzifənizi təyin edin</span><br><br>
+        <div>
         <input type="radio" value="0" style="height:20px;width:20px;" name="status">
-        <input type="radio" value="1" style="height:20px;" name="status">
+        <label>Worker</label>
+   <input type="radio" value="1" style="position: absolute;height:20px;" name="status">
+
+        </div>
         <label for="username">İstifadəçi adı</label><br>
         <input type="text" id="name" placeholder="İstifadəçi adını daxil edin" name="name" value="{{ old('name') }}" ><br><br>
             <label for="email">Email adresiniz</label><br>
@@ -53,6 +57,11 @@
                         <span>MENU</span>
                         <i class="fa fa-search" aria-hidden="true"></i>
                         <span>SEARCH</span>
+
+
+
+
+
                     </div>
                     <div class="a-logon">
                         <img src="/assets/img/logowhite.png">
@@ -74,11 +83,11 @@
                     </div>
                     @else
                  <div class="proficon">
-<img src="http://1.gravatar.com/avatar/d2a672c5ad8adcd83f9ecc215c9a2428?s=96&d=mm&r=G">
+<img src="http://1.gravatar.com/avatar/d2a672c5ad8adcd83f9ecc215c9a2428?s=96&d=mm&r=G ">
 <span>{{ Auth::user()->name }}</span>
 <div class="profopen">
         <span class="profopnavatar">
-        <img style="margin-bottom: 0px;" src="http://0.gravatar.com/avatar/8abce4c1d7441f807b4c690b3f43cf53?s=96&d=mm&r=G">{{ Auth::user()->name }}</span>
+        <img style="margin-bottom: 0px;" src="http://0.gravatar.com/avatar/8abce4c1d7441f807b4c690b3f43cf53?s=96&d=mm&r=G ">{{ Auth::user()->name }}</span>
 
 <ul>
     <li>
@@ -116,11 +125,14 @@
             <div class="col-md-12 project-a">
             <a href=""><button class="cretbtn">Post a Project</button></a>
             <div class="container">
+            <div class="row">
                 <h1>Looking for Available Projects?</h1>
                 <button id="btna" class="btnnone-a">Latest projects</button>
                 <button id="btnb" class="btnnone-a">Feature Projects</button>
             </div>
+            </div>
             <div class="container">
+            <div class="row">
                 <div class="col-md-3 projectstitle-a">
                     <span>PROJECT TITLE</span>
                 </div>
@@ -142,10 +154,12 @@
                     </div>
 
                 </div>
-
+                </div>
             </div>
             <div class="col-md-12 profiller-a">
                 <div class="container">
+                <div class="row ">
+
                     <h1>Looking for Professional Freelancers?</h1>
                <a href="auth"> <button class="btn-post-profile">Create a Profile</button></a>
                     <button id="btnc" class="btntwo-a">Latest projects</button>
@@ -154,7 +168,7 @@
                     <div class="col-md-12 freelancers-a">
 
                         <div class="col-md-5 worker-a">
-                            <img src="http://1.gravatar.com/avatar/928bd2c6c64963e07140456ba10a0aec?s=96&d=mm&r=G">
+                            <img src="http://1.gravatar.com/avatar/928bd2c6c64963e07140456ba10a0aec?s=96&d=mm&r=G ">
                             <div class="workprof-a">
                                 <span>Jamisony4870</span><br>
                                 <a href="">these discounts are great</a>
@@ -176,7 +190,7 @@
                             </div>
                         </div>
                         <div class="col-md-5 worker-a">
-                            <img src="http://1.gravatar.com/avatar/928bd2c6c64963e07140456ba10a0aec?s=96&d=mm&r=G">
+                            <img src="http://1.gravatar.com/avatar/928bd2c6c64963e07140456ba10a0aec?s=96&d=mm&r=G ">
                             <div class="workprof-a">
                                 <span>Jamisony4870</span><br>
                                 <a href="">these discounts are great</a>
@@ -198,7 +212,7 @@
                             </div>
                         </div>
                     </div>
-
+                    </div>
                 </div>
                 <!-- ############ -->
 
@@ -253,6 +267,7 @@
                         </div>
                     </div>
                 </div>
+                <div class="row">
                 <div class="col-md-12 speedworld-a">
                     <div class="col-md-4 paragrafs"><p>Your theme is very clean, simple and easy to customize, even for someone with no previous experience like me. Thanks you so much for such beautiful theme and all your support. I will recommend DirectoryEngine to anyone interested.
                     </p><h4> <b>Speed World</b></h4></div>
@@ -263,25 +278,33 @@
 </p><h4>  <b> Hoover</b></h4>
 </div>
 </div>
+</div>
 
 </div>
 
-
-
 </div>
 </div>
+
+</div>
+
+<div class="container-fluid">
+
+
+    <div class="row">
 <div class="col-md-12 footer-a">
 <img alt="AzadArt" src="/assets/img/logowhite.png">
 
 <div class="Designeid-a">
 <a href="../">AzadArt</a>
 <span > - Powered by AzadArt inc. </span>
-</div>
-</div>
 
+</div>
+</div>
+</div>
+</div>
 </body>
 </html>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js "></script>
 <script>
 $(document).ready(function(){
     $("#btnb").click(function(){

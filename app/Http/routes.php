@@ -23,10 +23,15 @@ Route::group(['middleware' => ['auth']], function () {
 	Route::get('/submitproject', 'HomeController@submitproject');
 
 	Route::get('/author', 'HomeController@author');
+	Route::get('/auth', 'HomeController@author');
+
 
 	Route::get('/profile', 'HomeController@profile');
 
 	Route::get('/profiles', 'HomeController@profiles');
+
+	Route::post('/insert', 'ProfileController@insert');
+
 
 
 });

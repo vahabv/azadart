@@ -19,6 +19,7 @@ line-height: 50px;
 }
 .menu span{
 margin-left: 10px;
+    cursor: pointer;
 letter-spacing: 1.3px
 }
 .fa-search{
@@ -30,7 +31,7 @@ text-align: center;
 }
 .proficon{
 float: right;
-margin-top: 30px;
+/*margin-top: 30px;*/
 letter-spacing: 1.5px;
 }
 .proficon img{
@@ -225,9 +226,15 @@ margin-top: 10px;
 height: 35px;
 border-left: solid 1px #f4f6f8;
 } /*main end*/
-.footer{ /*footer*/
+.footer{ 
+	/*footer*/
 background: #2c3e50;
-height: 115px;
+    height: 136px;
+    margin-top: 3vw;
+}
+.footer-mq{ /*footer*/
+background: #2c3e50;
+    height: 139px;
 }
 .footermain{
 margin-top: 50px;
@@ -583,6 +590,7 @@ color: #b9c5cd;
 	background-color: #f2f5f7;
 }
 .autworker{
+	margin-top: 2vw;
 background-color: white;
 height: 60px;
 }
@@ -730,6 +738,7 @@ color: #1d6399;
 }
 .tab-content{
 height: 740px;
+    margin-top: 7vw;
 background-color: white;
 }
 .title-auth{
@@ -793,7 +802,7 @@ height: 50px;
 }
 .main-a{
 background-color: #f2f5f7;
-height: 2400px;
+height: 2575px;
 }
 .a-slbtn{
   height: 30px;
@@ -1048,7 +1057,7 @@ color: #fff;
 letter-spacing: 1.5px;
 border: none;
 float: right;
-margin-top: 6vw;
+margin-top: 90px;
 }
 /*end #####*/
 /*freelancers-a start*/
@@ -1118,6 +1127,9 @@ margin-top: 10px;
 height: 35px;
 border-left: solid 1px #f4f6f8;
 }
+.allprof-a{
+	height: 31vw;
+}
 /*main end*/
 /*statsika*/
 .marketplace{
@@ -1152,8 +1164,8 @@ margin-left: 17px;
 line-height: 4;
 }
 
-fouter
-.speedworld{
+/*fouter*/
+.speedworld-a{
 height: 200px;
 
 }
@@ -1182,7 +1194,7 @@ margin-top: 50px;
   background-color: #f2f5f7;
 }
 .accauntbar-a{
-  margin-top: 10vw;
+  margin-top: 7vw;
   height: 120px;
   background-color: white;
 }
@@ -1325,6 +1337,11 @@ margin-top: 50px;
 /*profile page css end*/
 /*#######################*/
 /*project page start*/
+.ollproject-a{
+	height: 19vw;
+}
+
+
 .projecpage-a{
       margin-top: 10px;
   height: 60px;
@@ -1464,7 +1481,7 @@ margin-top: 50px;
   padding-top: 13px;
    margin-top: 3vw;
   background-color: white;
-  height: 63vw;
+      height: 735px;
 }
 .iscijobs-a h4{
     font-size: 17px;

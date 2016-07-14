@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Http\Requests;
 use Illuminate\Http\Request;
-
+use Auth;
 class HomeController extends Controller
 {
    public function index ()
@@ -29,8 +29,13 @@ public function author ()
   }
   public function profile ()
   {
-    return  view ('profile');
-    
+    $userType = Auth::user()->status;
+    if($userType == 0){
+
+      return  view ('profile');
+    }else{
+      return  view ('profile');
+    }
   }
 }
 

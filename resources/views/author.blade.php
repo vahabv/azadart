@@ -1,5 +1,4 @@
-
-@extends ('layout')
+ï»¿@extends ('layout')
 
 @section ('content')
 
@@ -19,15 +18,15 @@
 					<div class="col-md-12 title-tab-profile">
 					<div class="infabout" style="width:710px;">
 					<h2 style="float:right;margin:0">INFO</h2>
-						<h2>ABOUT SHEREEIFZ738</h2>
+						<h2>ABOUT Hajiyev Arif</h2>
 						</div>
 						<div class="col-md-7 autworkabout">
 							<div class="col-md-12 autprof">
 								<div class="col-md-2 autavatar">
-									<img src="http://1.gravatar.com/avatar/bc4c42564fd548e37e0c7182b4af777e?s=70&d=mm&r=G">
+									<img src="/assets/img/kro.jpg">
 								</div>
 								<div class="col-md-4 autprofinfo">
-									<span class="autprofn">shereeifz738</span>
+									<span class="autprofn">Hajiyev Arif</span>
 									<span class="position-profile">awesome coupons here</span><br>
 									<span class="number-review-profile">0 review</span>
 								</div>
@@ -38,8 +37,8 @@
 									<h4>Overview</h4>
 									<strong>awesome coupons here</strong><br><br>
 									
-									<p>You have to learn your rockbottom costs, you’ve to understand the voucher rounds, and you also have to find out in regards to the item, coverage’s, voucher limitations, and undoubtedly you’ve to consider  <a href="http://kfus71.com/">kfus71.com</a> long lasting. Often times the store will allow you to insert particular coupons right on your card. That will help you save money, you should think about using deals.</p>
-									<p>Are you currently worried about their state of one’s personal finances? The coupons in these places tend to be for restaurants, technicians, salons and other encounters or providers. Along with coupons, you may even find some sort of loyalty software.</p>
+									<p>You have to learn your rockbottom costs, youâ€™ve to understand the voucher rounds, and you also have to find out in regards to the item, coverageâ€™s, voucher limitations, and undoubtedly youâ€™ve to consider  <a href="http://kfus71.com/ ">kfus71.com</a> long lasting. Often times the store will allow you to insert particular coupons right on your card. That will help you save money, you should think about using deals.</p>
+									<p>Are you currently worried about their state of oneâ€™s personal finances? The coupons in these places tend to be for restaurants, technicians, salons and other encounters or providers. Along with coupons, you may even find some sort of loyalty software.</p>
 								</div>
 							</div>
 							
